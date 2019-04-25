@@ -2,6 +2,7 @@
     <div>
         <div class="container row">
           <h1>评论列表---增删</h1>
+          <span>组件间数据传递</span>
           <Add :addComment="addComment"/>
           <List :comments="comments" :deleteComment="deleteComment"/>
         </div>
